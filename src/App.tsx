@@ -1,9 +1,9 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Guitar from "./components/Guitar"
-import Header from "./components/Header.TSX"
-import { db } from "./data/db";
+// import Header from "./components/Header.TSX"
+// import { db } from "./data/db";
 import { useCart } from "./hooks/useCart";
-
+import Header from "./components/Header";
 function App() {
   const { data, cart, addToCart, removeFromCart, decrementQuantity, increaseQuantity, clearCart, isEmpty, cartTotal} = useCart();
     

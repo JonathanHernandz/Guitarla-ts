@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, CanvasHTMLAttributes } from "react"
+import { useState, useEffect, useMemo } from "react"
 import { db } from "../data/db";
 import type { CartItem, Guitar, GuitarID } from "../types";
 
